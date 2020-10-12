@@ -1,0 +1,22 @@
+@font-face {
+  font-family: excelsior;
+  src: url("./assets/fonts/bpg_gel_excelsior.woff") format("woff");
+  unicode-range: U+10d0-10f0;
+}
+
+body,
+html {
+  /* font-size: 15px; */
+  font-family: excelsior, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
