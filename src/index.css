@@ -6,7 +6,7 @@
 
 body,
 html {
-  /* font-size: 15px; */
+  font-size: 15px;
   font-family: excelsior, sans-serif;
 }
 
@@ -18,5 +18,31 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 1.5;
+}
+
+.pg-width {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.pagehead {
+  position: relative;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.emergency {
+  border-bottom: 2px solid #d82138;
+  padding: 16px;
+  background-color: #f7f7f7;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-gap: 1rem;
 }
